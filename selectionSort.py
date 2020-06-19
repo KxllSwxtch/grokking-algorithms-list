@@ -14,7 +14,7 @@ def selection_sort(arr: list) -> list:
     new_arr = []
     for i in range(len(arr)):
         smallest = find_smallest(arr)
-        new_arr.append(arr.pop(smallest))
+        new_arr.append(arr.pop(smallestj))
     return new_arr
 
 
